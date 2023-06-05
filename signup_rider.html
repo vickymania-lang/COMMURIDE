@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Comuride - register</title>
+    <title>Comuride - signup as rider</title>
     <link rel="icon" type="image/ico" href="assets/favicon_io/favicon.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -144,45 +144,80 @@
     </header>
     <div class="jumbotron jumbotron-fluid about-jumbotron jumbotron-bg">
         <div class="container">
-          <h1 class="display-4">Register</h1>
+          <h1 class="display-4">Sign Up as Rider</h1>
          <!--<p class="lead">Hhis is a modified jumbotron that occupies the entire horizontal space of its parent.</p>--> 
         </div>
       </div>
       <!--End of Jumbotron-->   
-      <section class="two-column-section  dark_2_bg section-pt">
-        <div id="signup_option" class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="assets/images/comuride/Rectangle 84.png" alt="">
-                </div>
-                <div class="col">
-                    <h3 style="color: white;">Sign up a rider</h3>
-                    <p style="color: white;">A click on the Fares Button indicates that the driver is not interested in the Points and therefore will be charging the riders fares for the trip.</p>
-                    <a href="readmore_rider.html"><button type="submit" id="send" value="submit">Readmore</button></a>
-                    <a href="signup_rider.html"><button type="submit" id="send" value="submit">Signup</button></a>
-                    
-                </div>
-            </div>
-        </div>
-           <div id="signup_option" class="container">
-            <div class="row">
-                <div class="col">
-                    <img class="footer_logo" src="assets/images/comuride/Rectangle 84.png" alt="">
-                </div>
-                <div class="col">
-                    <h3 style="color: white;">Sign up a Driver</h3>
-                    <p style="color: white;">A click on the Fares Button indicates that the driver is not interested in the Points and therefore will be charging the riders fares for the trip.</p>
-                    <a href="readmore_driver.html"><button type="submit" id="send" value="submit">Readmore</button></a>
-                    <a href="signup_driver.html"><button type="submit" id="send" value="submit">Signup </button></a>
-                </div> 
-            </div>
-           </div>
-    </section>
+      
+       <!-- signup as a rider section -->
 
-    <section style="margin: 20px; padding: 20px; text-align: center;  ">
-        <p>Click of login if you already have an account</p>
-        <a href="login.html"><button type="submit" id="send" value="submit">Login </button></a>
-    </section>
+    <section id="contact_rider">
+        <form class="side_by_side" autocomplete="on">
+            <input type="text" id="complete_circle_big" placeholder="image">
+            <div id="signup_option" class="container">
+                <div class="row">
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box">USERNAME</label>
+                        <input type="text" id="text_box" name="username" required autofocus>
+        
+                    </div>
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box"> PHONE NUMBER</label>
+                        <input type="tel" id="text_box" name="Phone Number" required>
+                       
+                    </div>
+                </div>
+            </div>
+            <div id="signup_option" class="container">
+                <div class="row">
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box">DATE OF BIRTH</label>
+                        <input type="text" id="text_box" name="username" required autofocus>
+        
+                    </div>
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box"> EMAIL</label>
+                        <input type="tel" id="text_box" name="Phone Number" required>
+                       
+                    </div>
+                </div>
+            </div>
+            <div id="signup_option" class="container">
+                <div class="row">
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box">GENDER</label>
+                        <input type="text" id="text_box" name="username" required autofocus>
+        
+                    </div>
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box"> LOCATION</label>
+                        <input type="tel" id="text_box" name="Phone Number" required>
+                       
+                    </div>
+                </div>
+            </div>
+            <div id="signup_option" class="container">
+                <div class="row">
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box">PASSWORD</label>
+                        <input type="text" id="text_box" name="username" required autofocus>
+        
+                    </div>
+                    <div id="contact_full_details" class="col">
+                        <label for="text_box"> CONFIRM PASSWORD</label>
+                        <input type="tel" id="text_box" name="Phone Number" required>
+                       
+                    </div>
+                </div>
+            </div>
+            <a href="home/homepage.html"><button type="submit" id="send" value="Submit">SIGNUP</button></a>   
+        </form>
+    </section> 
+
+    <!-- end signup as a rider section -->
+
+
 
     
     

@@ -5014,3 +5014,119 @@ body p {
     padding-left: 0 !important;
   }
 }
+
+
+
+/* adding my own style start here */
+
+#complete_circle_big {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+#contact_rider {
+  text-align: center;
+  color: black;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#contact_full_details {
+  margin: 20px;
+}
+
+.index_head {
+  text-align: center;
+  margin: 30px;
+}
+
+.signup_option {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+
+}
+
+.StartTrip {
+  background-color: rgb(243, 240, 240);
+  margin: auto;
+  padding: auto;
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#online_circle {
+  background-color: green;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+}
+
+#online_status {
+  background-color: green;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+}
+
+
+#online_status_image {
+  background-color: green;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  /* margin: 10px; */
+}
+
+
+#passcode_info {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.endtrip_button {
+  margin-top: 100px;
+} 
+
+.endtrip2_button {
+  margin-top: 300px;
+} 
+
+#body {
+  text-align: center;
+  color: #fff;
+  
+}
+
+.connect_section {
+  float: left;
+}
+
+#online_image {
+  background-color: green;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+
+}
