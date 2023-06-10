@@ -5135,3 +5135,12 @@ body p {
   margin: 10px;
 
 }
+
+/* setting style */
+
+.settings {
+  text-align: center;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
